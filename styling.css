@@ -1,0 +1,145 @@
+#nav {
+    height: 2.5vh;
+    width: 96vw;
+    background-color: darkcyan;
+    color: white;
+    font-size: 2.3em;
+    font-weight: 900;
+    padding: 1%;
+    padding-bottom: 2.5%;
+}
+
+#container {
+    display: flex;
+    width: 96vw;
+    height: 88vh;
+    background-color: rgb(244, 242, 242);
+}
+
+#leftPane,
+#rightPane {
+    width: 100%;
+    height: 100%;
+}
+
+#rightPane {
+    border-left: 2px solid gainsboro;
+    background-color: white;
+}
+
+#btns {
+    height: 14vh;
+    width: 100%;
+    border-bottom: 2px solid gainsboro;
+    background-color: white;
+}
+
+#newQ {
+    margin: 3.7% 5%;
+    background-color: rgb(62, 130, 187);
+    border: 3px solid rgb(132, 191, 223);
+    border-radius: 5%;
+    color: white;
+    height: 38%;
+    width: 23%;
+}
+
+#searchQ {
+    margin: auto;
+    background-color: white;
+    border: 3px solid gainsboro;
+    border-radius: 5%;
+    padding: 1.1%;
+    color: gray;
+}
+
+#questionField {
+    height: calc(100% - 16.5vh);
+    /* overflow: hidden; */
+    width: 100%;
+    /* position: absolute; */
+}
+
+.qChild>div,
+input,
+textarea,
+button {
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+button {
+    margin-top: 1%;
+    margin-left: 81%;
+    padding: 0.3%;
+    background-color: rgb(62, 130, 187);
+    border: 2px solid rgb(132, 191, 223);
+    border-radius: 5%;
+    color: white;
+    font-size: 1em;
+    height: 5%;
+    width: 13%;
+}
+
+.heading {
+    color: gray;
+    font-size: 1.8em;
+    font-weight: 550;
+}
+
+#welcome {
+    margin-top: 10%;
+    /* margin-bottom: 2%; */
+    font-size: 2.3em;
+    font-weight: 700;
+}
+
+#info {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.inputTitle{
+    padding: 0.4%;
+    font-size: 1em;
+}
+
+.inputBody{
+    padding: 0.4%;
+    width: 85%;
+    font-size: 1.2em;
+    color: black;
+}
+
+#selectedQuestion, #appendResponse, #responseField{
+    display: none;
+}
+
+#responseField{
+    margin-bottom: 10%;
+}
+
+.questionBox{
+    border-bottom: 2px solid gainsboro;
+    border-right: 2px solid gainsboro;
+    background-color: rgb(244, 242, 242);
+    padding: 1%;
+}
+
+.selectedQues{
+    background-color: rgb(244, 242, 242); 
+    padding: 1%;
+}
+
+.sub{
+    margin-left: 4%;
+    margin-bottom: 1%;
+    color: rgb(105, 99, 99);
+    font-size: 2em;
+}
+
+.qbody{
+    margin-left: 4%;
+    color: rgb(105, 99, 99);
+    font-size: 1.5em;
+}

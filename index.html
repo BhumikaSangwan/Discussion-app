@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discussion Portal</title>
+    <link href="./discussion.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="nav">Discussion Portal</div>
+    <div id="container">
+        <div id="leftPane">
+            <div id="btns">
+                <button id="newQ">New Question form</button>
+                <input type="text" id="searchQ" placeholder="search questions...">
+            </div>
+            <div id="questionField">
+
+            </div>
+        </div>
+        <div id="rightPane">
+            <div id="question" class="qChild">
+                <div id="welcome">Welcome to Discussion Portal !</div>
+                <div id="info">Enter a subject and question to get started</div>
+                <input type="text" placeholder="Subject" class="inputTitle" id="inputQuestion"><br>
+                <textarea placeholder="Question" class="inputBody" rows="7"  id="inputQBody"></textarea><br>
+                <button class="submitBtn" id="qSubmit">Submit</button>
+            </div>
+            <div id="selectedQuestion" class="qChild">
+                <div class="heading">Question</div>
+                <div  class="selectedQues ques">
+                    <div id="selectedQuestionSubject" class="sub"></div>
+                    <div id="selectedQuestionBody" class="qbody"></div>
+                </div>
+                <button id="resolveBtn">Resolve</button>
+            </div>
+            <div id="responseField" class="qChild">
+                <div id="responseHeading" class="heading">Response</div>
+                <div id="addedResponses"></div>
+            </div>
+            <div id="appendResponse" class="qChild">
+                <div id="addResponseHeading" class="heading">Add Response</div>
+                <input type="text" placeholder="Enter Name" class="inputTitle" id="responserName"><br>
+                <textarea placeholder="Enter comment" class="inputBody" rows="7" id="comment"></textarea><br>
+                <button class="submitBtn" id="responseSubmit">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="discussion.js"></script>
+
+</html>
